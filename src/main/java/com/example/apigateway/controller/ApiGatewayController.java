@@ -34,7 +34,7 @@ public class ApiGatewayController {
 	 *
 	 * @return index ページのテンプレート名
 	 */
-	@GetMapping("/")
+	@GetMapping("/getImage")
 	public String showIndexPage() {
 		return "getImage"; // getImage.htmlを返す
 	}
