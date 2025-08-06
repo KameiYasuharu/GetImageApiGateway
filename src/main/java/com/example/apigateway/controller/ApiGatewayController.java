@@ -44,7 +44,7 @@ public class ApiGatewayController {
 	 * @param request 変換リクエストDTO
 	 * @return 変換結果を含むレスポンスエンティティ
 	 */
-	@GetMapping("/ApiGateway")
+	@GetMapping("/ApiGateway_OP2")
 	@ResponseBody
 	public ResponseEntity<?> gatewayConvert(@ModelAttribute GetImageRequest request) {
 		try {
